@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.botonJorgeCisneros = new System.Windows.Forms.Button();
+            this.AlvaroGarciaBayo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,21 @@
             this.botonJorgeCisneros.Text = "JorgeCisneros";
             this.botonJorgeCisneros.UseVisualStyleBackColor = true;
             // 
+            // AlvaroGarciaBayo
+            // 
+            this.AlvaroGarciaBayo.Location = new System.Drawing.Point(32, 119);
+            this.AlvaroGarciaBayo.Name = "AlvaroGarciaBayo";
+            this.AlvaroGarciaBayo.Size = new System.Drawing.Size(75, 23);
+            this.AlvaroGarciaBayo.TabIndex = 2;
+            this.AlvaroGarciaBayo.Text = "A.G.Bayo";
+            this.AlvaroGarciaBayo.UseVisualStyleBackColor = true;
+            // 
             // FormularioEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 484);
+            this.Controls.Add(this.AlvaroGarciaBayo);
             this.Controls.Add(this.botonJorgeCisneros);
             this.Controls.Add(this.label1);
             this.Name = "FormularioEntrada";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button botonJorgeCisneros;
+        private System.Windows.Forms.Button AlvaroGarciaBayo;
     }
 }
 
