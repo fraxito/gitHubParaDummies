@@ -10,18 +10,16 @@ using System.Windows.Forms;
 
 namespace ProyectoConjuntoDAM
 {
-    public partial class FormularioEntrada : Form
+    public partial class EricKeAlce : Form
     {
-        public FormularioEntrada()
+        public EricKeAlce()
         {
             InitializeComponent();
         }
 
-        private void EricNavarro_Click(object sender, EventArgs e)
+        private void InicioDesdeEric_Click(object sender, EventArgs e)
         {
-           EricKeAlce ventanaEric = new EricKeAlce();
-            ventanaEric.Show();
-
+            Hide();
         }
     }
 }
