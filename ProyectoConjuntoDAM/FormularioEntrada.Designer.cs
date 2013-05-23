@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.botonJorgeCisneros = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -43,18 +44,28 @@
             // 
             // botonJorgeCisneros
             // 
-            this.botonJorgeCisneros.Location = new System.Drawing.Point(32, 70);
+            this.botonJorgeCisneros.Location = new System.Drawing.Point(32, 69);
             this.botonJorgeCisneros.Name = "botonJorgeCisneros";
             this.botonJorgeCisneros.Size = new System.Drawing.Size(89, 23);
             this.botonJorgeCisneros.TabIndex = 1;
             this.botonJorgeCisneros.Text = "JorgeCisneros";
             this.botonJorgeCisneros.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(32, 118);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(89, 23);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "AdrianDiez";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // FormularioEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 484);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.botonJorgeCisneros);
             this.Controls.Add(this.label1);
             this.Name = "FormularioEntrada";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button botonJorgeCisneros;
+        private System.Windows.Forms.Button button1;
     }
 }
 
