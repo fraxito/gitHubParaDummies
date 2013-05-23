@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EricKeAlce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EricKeAlce.Designer.cs">
+      <DependentUpon>EricKeAlce.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
