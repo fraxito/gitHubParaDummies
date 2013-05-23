@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.botonJorgeCisneros = new System.Windows.Forms.Button();
+            this.LuisJarosz = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,22 @@
             this.botonJorgeCisneros.Text = "JorgeCisneros";
             this.botonJorgeCisneros.UseVisualStyleBackColor = true;
             // 
+            // LuisJarosz
+            // 
+            this.LuisJarosz.Location = new System.Drawing.Point(32, 123);
+            this.LuisJarosz.Name = "LuisJarosz";
+            this.LuisJarosz.Size = new System.Drawing.Size(224, 23);
+            this.LuisJarosz.TabIndex = 2;
+            this.LuisJarosz.Text = "Ir a LuisJarosz Form";
+            this.LuisJarosz.UseVisualStyleBackColor = true;
+            this.LuisJarosz.Click += new System.EventHandler(this.LuisJarosz_Click);
+            // 
             // FormularioEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 484);
+            this.Controls.Add(this.LuisJarosz);
             this.Controls.Add(this.botonJorgeCisneros);
             this.Controls.Add(this.label1);
             this.Name = "FormularioEntrada";
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button botonJorgeCisneros;
+        private System.Windows.Forms.Button LuisJarosz;
     }
 }
 

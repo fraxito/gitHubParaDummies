@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ProyectoConjuntoDAM
 {
-    public partial class FormularioEntrada : Form
+    public partial class LuisJarosz : Form
     {
-        public FormularioEntrada()
+        public LuisJarosz()
         {
             InitializeComponent();
-        }
-
-        private void LuisJarosz_Click(object sender, EventArgs e)
-        {
-            
         }
     }
 }
