@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.botonJorgeCisneros = new System.Windows.Forms.Button();
+            this.pablo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,21 @@
             this.botonJorgeCisneros.Text = "JorgeCisneros";
             this.botonJorgeCisneros.UseVisualStyleBackColor = true;
             // 
+            // pablo
+            // 
+            this.pablo.Location = new System.Drawing.Point(495, 12);
+            this.pablo.Name = "pablo";
+            this.pablo.Size = new System.Drawing.Size(75, 23);
+            this.pablo.TabIndex = 2;
+            this.pablo.Text = "pablo";
+            this.pablo.UseVisualStyleBackColor = true;
+            // 
             // FormularioEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 484);
+            this.Controls.Add(this.pablo);
             this.Controls.Add(this.botonJorgeCisneros);
             this.Controls.Add(this.label1);
             this.Name = "FormularioEntrada";
@@ -68,6 +79,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button botonJorgeCisneros;
+        private System.Windows.Forms.Button pablo;
     }
 }
 
