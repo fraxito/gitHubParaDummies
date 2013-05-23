@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.botonJorgeCisneros = new System.Windows.Forms.Button();
+            this.EugenioAM = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,23 @@
             this.botonJorgeCisneros.Text = "JorgeCisneros";
             this.botonJorgeCisneros.UseVisualStyleBackColor = true;
             // 
+            // EugenioAM
+            // 
+            this.EugenioAM.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EugenioAM.ForeColor = System.Drawing.Color.Blue;
+            this.EugenioAM.Location = new System.Drawing.Point(145, 63);
+            this.EugenioAM.Name = "EugenioAM";
+            this.EugenioAM.Size = new System.Drawing.Size(86, 33);
+            this.EugenioAM.TabIndex = 2;
+            this.EugenioAM.Text = "Ir a Eu\'s";
+            this.EugenioAM.UseVisualStyleBackColor = true;
+            // 
             // FormularioEntrada
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(582, 484);
+            this.Controls.Add(this.EugenioAM);
             this.Controls.Add(this.botonJorgeCisneros);
             this.Controls.Add(this.label1);
             this.Name = "FormularioEntrada";
@@ -68,6 +81,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button botonJorgeCisneros;
+        private System.Windows.Forms.Button EugenioAM;
     }
 }
 

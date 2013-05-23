@@ -44,6 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EugenioAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EugenioAM.Designer.cs">
+      <DependentUpon>EugenioAM.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioEntrada.cs">
       <SubType>Form</SubType>
     </Compile>
